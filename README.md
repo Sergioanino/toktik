@@ -63,3 +63,23 @@ Savoir plus sur la documentation de [Play and pause a video/Flutter documentatio
 Création du concept Clean Architecture avec la création d'un DataSource et un Repositories pour transmettre d'information de l'application plus facilement du moment qu'on change de source de l'information comme les petitions https.
 
 Le repository va nous servir de pont pour transmettre l'information.
+
+## 112 - Création des deux classes abstract - DataSource et Repositories
+
+## 113 - Implementation des deux classes en étendre les classes abstract
+
+## 114 - Utilisation des deux classes implementé
+
+Explication simple de l'architecture propre en programmation.
+
+```
+1. UI
+
+2. Presentation
+
+3. //. Cas d'utilisation
+
+4. Repositories & Datasources
+
+5. Information revient au UI
+```
