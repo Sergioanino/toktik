@@ -16,13 +16,13 @@ class MyApp extends StatelessWidget {
 
     final videoPostRepository = VideoPostsRepositoryImpl(
       videosDatasource: LocalVideoDatasource()
-    );
+    ); //. 114 - Implementation du datasource et le repository
 
     return MultiProvider( //.95
       providers: [
         ChangeNotifierProvider(  //.95
           lazy: false,
-          create: (_) => DiscoverProvider( videosRepository: videoPostRepository)..loadNextPage() //. 97 : appel de cascade de ..loadNextPage()
+          create: (_) => DiscoverProvider( videosRepository: videoPostRepository)..loadNextPage() //. 97 : appel de cascade de ..loadNextPage() & //_ 114 - ajout de la classe abstract !!
         ),
       ],
       child: MaterialApp(
