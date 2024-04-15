@@ -55,3 +55,5 @@ Savoir plus sur la documentation de [Play and pause a video/Flutter documentatio
 - lib\presentation\widgets\video\video_background.dart
 
 - Utilisation du gradient dans le Widget FullScreenPlayer [utilisation du gradient](lib\presentation\widgets\video\fullscreen_player.dart#L73)
+
+## Fin session 7 : Création clone de l'application Tiktok!
