@@ -57,3 +57,9 @@ Savoir plus sur la documentation de [Play and pause a video/Flutter documentatio
 - Utilisation du gradient dans le Widget FullScreenPlayer [utilisation du gradient](lib\presentation\widgets\video\fullscreen_player.dart#L73)
 
 ## Fin session 7 : Création clone de l'application Tiktok!
+
+# Commencement de la session 8 - Suite de la session 7
+
+Création du concept Clean Architecture avec la création d'un DataSource et un Repositories pour transmettre d'information de l'application plus facilement du moment qu'on change de source de l'information comme les petitions https.
+
+Le repository va nous servir de pont pour transmettre l'information.
